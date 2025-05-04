@@ -23,7 +23,7 @@ const UploadImage = ({ name, setImage }) => {
   const uploadSingleImage = (base64) => {
     setLoading(true);
     axios
-      .post("http://localhost:8000/api/upload/Image", {
+      .post("https://se-project-25j3.onrender.com/api/upload/Image", {
         image: base64,
       })
       .then((res) => {

@@ -1,3 +1,3 @@
 export const getBaseUrl = () => {
-  return "http://localhost:8000";
+  return "https://se-project-25j3.onrender.com/api";
 };
